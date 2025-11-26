@@ -8,8 +8,8 @@ export default defineConfig({
   test: {
     globals: true,
     environment: 'jsdom',
-    setupFiles: ['./src/test/setup.js'],
-    exclude: ['tests/**/*.spec.js', 'test-results/**', './node_modules/**'],
+    setupFiles: ['./src/test/setup.mjs'],
+    exclude: ['tests/**/*.spec.mjs', 'test-results/**', './node_modules/**'],
     watch: false
   },
   resolve: {
