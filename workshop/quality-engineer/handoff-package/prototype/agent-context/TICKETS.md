@@ -126,6 +126,13 @@ Legend
     - Use and configure axios library to do all http calls from front-end towards backend server.
     - Document this change as well.
 
+- [x] FE-TECH-018: Remove old failing e2e Playwright accessibility tests
+  - Goal: Identify and remove outdated or failing e2e Playwright accessibility tests that are no longer relevant or are causing CI failures.
+  - Acceptance criteria:
+    - Review existing accessibility tests in the test suite.
+    - Remove tests that are failing due to obsolete code or requirements.
+    - Ensure remaining tests pass and maintain accessibility standards.
+
 ---
 
 ## Improvements & Tech debt (observations during development)
